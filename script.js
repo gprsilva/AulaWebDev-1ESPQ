@@ -4,6 +4,8 @@
 // console.error("Erro")
 
 
+
+
 // console.group("Grupo de logs")
 // console.log("Guilherme")
 // console.info("Informação")
@@ -69,15 +71,64 @@
 // console.log("BigNum:"+BigNum+" tipo:"+typeof(BigNum))
 
 
-let task = {
-  id: 1,
-  title: "Aprender JavaScript",
-  completed: false,
-  assignee: {
-    name: "João",
-    email: "joao@example.com"
-  },
-  toggleComplete() {
-    this.completed = !this.completed;
-  }
-};
+// let task = {
+//   id: 1,
+//   title: "Aprender JavaScript",
+//   completed: false,
+//   assignee: {
+//     name: "João",
+//     email: "joao@example.com"
+//   },
+//   toggleComplete() {
+//     this.completed = !this.completed;
+//   }
+// };
+
+// const tasks = [
+//     {
+//   id: 1,
+//   title: "Aprender JavaScript",
+//   completed: false,
+//   assignee: {
+//     name: "João",
+//     email: "joao@example.com"
+//   },
+//   toggleComplete() {
+//     this.completed = !this.completed;
+//   }
+// }
+// ]
+
+
+// let hoje = new Date()
+// console.log(hoje)
+
+
+// let pattern = /^\+55\(\d{2}\)\d{4,5}\-\d{4}$/;
+// console.log(pattern.test("+55(11)92299-0899")); // true
+// console.log(pattern.test("+55(11)2299-0899"));  // true
+
+
+
+// let convertido1 = String(42)
+// console.log("convertido1:"+convertido1+" tipo:"+typeof(convertido1))
+
+
+// let convertido2 = 42 + ""
+// console.log("convertido2:"+convertido2+" tipo:"+typeof(convertido2))
+
+
+// let convertido3 = Number("42")
+// console.log("convertido3:"+convertido3+" tipo:"+typeof(convertido3))
+
+
+
+// let a = 10;
+// let b = 3;
+// console.log(a + b); // 13 (soma)
+// console.log(a - b); // 7 (subtração)
+// console.log(a * b); // 30 (multiplicação)
+// console.log(a / b); // 3.333... (divisão)
+
+// console.log(a % b); // 1 (resto da divisão)
+// console.log(a ** b); // 1000 (exponenciação)
